@@ -5,7 +5,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import { AppProvider } from '@/contexts/AppContext'
 import { Toaster } from 'sonner'
-
+import { Analytics } from "@vercel/analytics/next"
 const inter = Inter({ 
   subsets: ['latin'], 
   variable: '--font-inter',
@@ -99,6 +99,7 @@ export default function RootLayout({
             <Header />
             <main className="flex-1">
               {children}
+              
             </main>
             <Footer />
           </div>
@@ -108,6 +109,7 @@ export default function RootLayout({
             closeButton
             duration={3000}
           />
+           <Analytics />
         </AppProvider>
       </body>
     </html>
