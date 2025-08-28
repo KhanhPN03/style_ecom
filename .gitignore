@@ -1,0 +1,121 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Production builds
+.next/
+out/
+build/
+dist/
+
+# Environment variables - CRITICAL SECURITY
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# API Keys and Secrets - NEVER COMMIT THESE
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+config/secrets/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary folders
+tmp/
+temp/
+
+# Vercel deployment files
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Prisma (if using)
+prisma/migrations/
+prisma/*.db
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Email configurations - SECURITY CRITICAL
+email-config.json
+smtp-config.json
+
+# Miscellaneous
+.sass-cache/
+.connect.lock
+.typings/
+.history/
+
+# Local development
+.local/
+local-config.json
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+
+# Storybook
+storybook-static/
