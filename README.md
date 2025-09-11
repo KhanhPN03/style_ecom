@@ -124,26 +124,6 @@ npm run build
 npm start
 ```
 
-## 🌐 Deployment
-
-### Vercel (Recommended)
-1. Push code to GitHub
-2. Connect repository to Vercel
-3. Deploy automatically
-
-Or use Vercel CLI:
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### Other Platforms
-The project can be deployed on any platform that supports Next.js:
-- Netlify
-- Railway
-- AWS Amplify
-- DigitalOcean App Platform
-
 ## 📊 Performance Features
 
 - **Image Optimization**: next/image with proper sizing
